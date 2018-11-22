@@ -2,8 +2,12 @@
 
     class App extends Component{
         render(){
+            const headerStyle = {
+                color: '#ff0000',
+                textDecoration : 'underline'
+            }
             return (
-                <div>
+                <div style={headerStyle}>
                     Hello World Again!
                 </div>
             )
